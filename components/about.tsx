@@ -46,7 +46,7 @@ export default function About() {
               </div>
               {/* Accent Block */}
               <div className="absolute -bottom-8 -right-8 bg-accent p-8 md:p-12 max-w-xs hidden md:block">
-                <span className="text-5xl font-serif text-accent-foreground">15+</span>
+                <span className="text-5xl font-serif text-accent-foreground">10+</span>
                 <p className="text-accent-foreground/80 mt-2 text-sm uppercase tracking-widest">
                   Años creando espacios excepcionales
                 </p>
