@@ -6,7 +6,7 @@ import Link from "next/link"
 import ScrollReveal from "./scroll-reveal"
 
 const rooms = [
-  { id: "bano", label: "Baño", basePrice: 4500 },
+  { id: "bano", label: "Baño", basePrice: 4 },
   { id: "cocina", label: "Cocina", basePrice: 7000 },
   { id: "salon", label: "Salón / Comedor", basePrice: 6000 },
   { id: "integral", label: "Reforma Integral", basePrice: 18000 },
