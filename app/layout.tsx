@@ -8,6 +8,7 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nvrobraforma.com'),
   title: 'NVR Obraforma | Reformas Integrales en Barcelona y Collbató | Arquitectos y Construcción',
   description: 'Empresa de reformas integrales en Barcelona y Collbató. Especialistas en reformas de viviendas, locales comerciales y dirección técnica. +15 años de experiencia. Presupuesto sin compromiso.',
   generator: 'v0.app',
@@ -19,8 +20,29 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'NVR Obraforma | Reformas Integrales en Barcelona y Collbató',
     description: 'Empresa de reformas integrales en Barcelona. Especialistas en viviendas, locales comerciales y dirección técnica. Presupuesto sin compromiso.',
+    url: 'https://nvrobraforma.com',
+    siteName: 'NVR Obraforma',
     locale: 'es_ES',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'NVR Obraforma | Reformas Integrales en Barcelona',
+    description: 'Empresa de reformas integrales en Barcelona. Especialistas en viviendas, locales comerciales y dirección técnica.',
+  },
+  alternates: {
+    canonical: 'https://nvrobraforma.com',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 }
 
