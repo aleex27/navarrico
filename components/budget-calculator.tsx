@@ -7,7 +7,7 @@ import ScrollReveal from "./scroll-reveal"
 
 const rooms = [
   { id: "bano", label: "Baño", basePrice: 4000 },
-  { id: "cocina", label: "Cocina", basePrice: 7000 },
+  { id: "cocina", label: "Cocina", basePrice: 6000 },
   { id: "salon", label: "Salón / Comedor", basePrice: 6000 },
   { id: "integral", label: "Reforma Integral", basePrice: 18000 },
   { id: "local", label: "Local Comercial", basePrice: 12000 },
